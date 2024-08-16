@@ -1,0 +1,6 @@
+var path=require('path')
+var util=require('util')
+var v8=require('v8')
+console.log(path.basename(__filename))
+console.log(path.basename(__dirname))
+console.log(v8.getHeapCodeStatistics())
